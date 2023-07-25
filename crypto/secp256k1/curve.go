@@ -87,6 +87,7 @@ func (BitCurve *BitCurve) Params() *elliptic.CurveParams {
 		Gx:      BitCurve.Gx,
 		Gy:      BitCurve.Gy,
 		BitSize: BitCurve.BitSize,
+		Name:    "S-256",
 	}
 }
 
